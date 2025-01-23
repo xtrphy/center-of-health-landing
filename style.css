@@ -10,6 +10,8 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
+/* Navbar Section Starts */
+
 .nav {
   display: flex;
   justify-content: center;
@@ -98,3 +100,73 @@ body {
 .action-button:hover {
   background-color: #c79c66;
 }
+
+/* Navbar Section Ends */
+
+/* Hero Section Starts */
+
+.hero {
+  width: 1920px;
+  margin-top: 20px;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.hero-transparent-rectangle {
+  position: absolute;
+  z-index: 3;
+  top: 20px;
+  left: 442px;
+}
+
+.hero-white-rectangle {
+  position: absolute;
+  z-index: 2;
+  left: 422px;
+}
+
+.hero-text-button-container {
+  width: 386px;
+  position: absolute;
+  z-index: 4;
+  top: 207px;
+  left: 492px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.hero-subtitle {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.hero-action-button {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.5px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #D3B288;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.hero-action-button:hover {
+  background-color: #c79c66;
+}
+
+/* Hero Section Ends */
