@@ -8,6 +8,8 @@
 
 body {
   font-family: 'Rubik', sans-serif;
+  max-width: 1920px;
+  overflow-x: hidden;
 }
 
 /* Navbar Section Starts */
@@ -20,7 +22,6 @@ body {
 }
 
 .container {
-  width: 1920px;
   display: flex;
   justify-content: center;
   gap: 140px;
@@ -128,7 +129,7 @@ body {
 }
 
 .hero-text-button-container {
-  width: 386px;
+  width: 325px;
   position: absolute;
   z-index: 4;
   top: 207px;
@@ -170,3 +171,32 @@ body {
 }
 
 /* Hero Section Ends */
+
+/* About Section Starts */
+
+.about {
+  margin-top: 150px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  gap: 134px;
+}
+
+.about-title {
+  color: #D3B288;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 40px;
+}
+
+.about-subtitle {
+  width: 526px;
+  font-size: 16px;
+  line-height: 22.5px;
+  font-weight: 400;
+}
+
+/* About Section Ends */
